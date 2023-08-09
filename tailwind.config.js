@@ -8,6 +8,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+            lineHeight: {
+        tight: '1.2', // You can adjust the value to your preference
+      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
